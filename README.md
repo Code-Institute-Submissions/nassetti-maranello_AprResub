@@ -34,3 +34,5 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 [Full Page Scroll Tutorial](https://www.youtube.com/watch?v=htw4iKMYzEc)
 
 [Adding Fonts](https://www.geeksforgeeks.org/how-to-include-a-font-ttf-using-css/)
+
+[CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
