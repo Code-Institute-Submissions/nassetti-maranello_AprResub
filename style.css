@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+/* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
+:root {
+    --yellow: #F7D31D;
+    --racing-red: #F60000;
+    --crimson: #BD0000;
+    --grey: #343330;
+    --black: #181715;
+  }
+
+
+section {
+    /* Making section heights equal to 100% of view height to create full screen scroll effect. */
+    height:100vh;
+    /* using flex to create responsive positioning for content */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    background-color: var(--crimson);
+
+}
+
+.two {
+    background-color: var(--grey);
+}
+
+.three {
+    background-color: var(--yellow);
+}
+
+.four {
+    background-color: var(--black);
+}
