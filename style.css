@@ -33,7 +33,7 @@ div .logo {
 }
 
 
-/* adding scrolling features to overall parent container */
+/* adding scrolling features to overall parent container. Reference: Full Page Scroll Tutorial */
 .container {
   height: 100vh;
   scroll-snap-type: y mandatory;
