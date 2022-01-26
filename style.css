@@ -21,6 +21,8 @@ div .logo {
   top: 10px;
   left:10px;
   width: auto;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--black);
 }
 
 /* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
