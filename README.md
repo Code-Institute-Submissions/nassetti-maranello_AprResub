@@ -40,5 +40,5 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 
 [CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
 
-[Pop-Up Box](https://www.w3schools.com/howto/howto_js_popup.asp)
+[Pop-Up/Modal Box](https://www.w3schools.com/howto/howto_css_modals.asp)
 
