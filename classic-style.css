@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: var(--grey);
+  }
+  
+
+/* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
+:root {
+    --yellow: #ddbc17;
+    --racing-red: #f60000;
+    --crimson: #bd0000;
+    --grey: #343330;
+    --black: #181715;
+  }
+  
+/*adding font for logo*/
+@font-face {
+    font-family: ferroRosso;
+    src: url("assets/ferro_rosso/FerroRosso.ttf");
+  }
+  
+  /*adding fixed positioning on page for logo */
+  header .logo {
+    position: absolute;
+    font-size: 3rem;
+    color: whitesmoke;
+    font-family: ferroRosso;
+    top: 10px;
+    left:10px;
+    width: auto;
+  }
