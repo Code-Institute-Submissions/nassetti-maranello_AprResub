@@ -39,3 +39,6 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 [Adding Fonts](https://www.geeksforgeeks.org/how-to-include-a-font-ttf-using-css/)
 
 [CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
+
+[Pop-Up Box](https://www.w3schools.com/howto/howto_js_popup.asp)
+
