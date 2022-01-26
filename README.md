@@ -19,6 +19,9 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 
 * HTML
 * CSS
+    * Scroll-Snapping 
+        * Error: Scroll-Snapping could not be used with a track pad but worked with a mouse and keyboard arrows.
+        * Solution: Appeared to be an issue with Firefox. Tested on Safari and Chrome and worked as desired. As a safety measure, added an instructional pop-up that recommended utilisation of keyboard arrows.
 
 ## References
 [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)

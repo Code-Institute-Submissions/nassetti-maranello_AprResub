@@ -1,43 +1,51 @@
 * {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: whitesmoke;
 }
 
 /* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
 :root {
-    --yellow: #F7D31D;
-    --racing-red: #F60000;
-    --crimson: #BD0000;
-    --grey: #343330;
-    --black: #181715;
-  }
+  --yellow: #f7d31d;
+  --racing-red: #f60000;
+  --crimson: #bd0000;
+  --grey: #343330;
+  --black: #181715;
+}
 
+/* adding scrolling features to overall parent container */
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
 
+/* creating style rules for child sections */
 section {
-    /* Making section heights equal to 100% of view height to create full screen scroll effect. */
-    height:100vh;
-    /* using flex to create responsive positioning for content */
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  /* Making section heights equal to 100% of view height to create full screen scroll effect. */
+  height: 100vh;
+  /* using flex to create responsive positioning for content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
 }
 
 .home {
-    background-color: var(--crimson);
-
+  background-color: var(--crimson);
 }
 
 .two {
-    background-color: var(--grey);
+  background-color: var(--grey);
 }
 
 .three {
-    background-color: var(--yellow);
+  background-color: var(--yellow);
 }
 
 .four {
-    background-color: var(--black);
+  background-color: var(--black);
 }
