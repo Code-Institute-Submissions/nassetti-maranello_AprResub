@@ -42,6 +42,6 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 
 [Pop-Up/Modal Box](https://www.w3schools.com/howto/howto_css_modals.asp)
 
-[Keyboard Arrow Image](https://www.pngwing.com/en/free-png-pskth)
+[Keyboard Arrow Image](https://www.pngwing.com/en/free-png-pzfjk/download)
 
-
+[Responsive Nav Bar](https://www.youtube.com/watch?v=xTN3pvoYENg)
