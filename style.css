@@ -14,11 +14,13 @@
 }
 
 /*adding fixed positioning on page for logo */
-header .logo {
+div .logo {
   position: absolute;
   font-size: 3rem;
   color: whitesmoke;
   font-family: ferroRosso;
+  top: 10px;
+  left:10px;
   width: auto;
 }
 
