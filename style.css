@@ -52,8 +52,19 @@ section {
   scroll-snap-align: start;
 }
 
-.home {
+/* CSS for welcome page */
+.welcome {
   background-color: var(--crimson);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.welcome h1 {
+  font-size: 2rem;
+}
+.welcome h3 {
+  font-size: 1.3rem;
+  width: 70%;
 }
 
 .two {
