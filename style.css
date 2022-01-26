@@ -6,6 +6,23 @@
   color: whitesmoke;
 }
 
+/*adding font for logo*/
+@font-face {
+  font-family: ferroRosso;
+  src: url("assets/ferro_rosso/FerroRosso.ttf");
+}
+
+/*adding fixed positioning on page for logo */
+div .logo {
+  position: absolute;
+  font-size: 3rem;
+  color: whitesmoke;
+  font-family: ferroRosso;
+  top: 10px;
+  left:10px;
+  width: auto;
+}
+
 /* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
 :root {
   --yellow: #f7d31d;
@@ -14,6 +31,7 @@
   --grey: #343330;
   --black: #181715;
 }
+
 
 /* adding scrolling features to overall parent container */
 .container {
