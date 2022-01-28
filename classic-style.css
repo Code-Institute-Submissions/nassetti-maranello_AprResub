@@ -24,13 +24,33 @@
     src: url("assets/ferro_rosso/FerroRosso.ttf");
   }
   
-  /*adding fixed positioning on page for logo */
-  header .logo {
-    position: absolute;
-    font-size: 3rem;
-    color: whitesmoke;
-    font-family: ferroRosso;
-    top: 10px;
-    left:10px;
-    width: auto;
-  }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ /* adding fixed positioning on page for logo
+ header .logo {
+  position: absolute;
+  font-size: 3rem;
+  color: whitesmoke;
+  font-family: ferroRosso;
+  top: 10px;
+  left:10px;
+  width: auto;
+} */
+
+.logo {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-family: ferroRosso;
+  
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+}
