@@ -44,4 +44,5 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 
 [Keyboard Arrow Image](https://www.pngwing.com/en/free-png-pzfjk/download)
 
-[Responsive Nav Bar](https://www.youtube.com/watch?v=xTN3pvoYENg)
+[Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css/)
+
