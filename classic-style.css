@@ -161,3 +161,11 @@ body {
     text-decoration: none;
     
   }
+
+/* Style rules for nav items and nav  */
+.nav {
+  background-color: var(--crimson);
+}
+.nav-item {
+  background-color: var(--crimson);
+}
