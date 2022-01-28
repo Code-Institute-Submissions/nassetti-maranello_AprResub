@@ -47,6 +47,7 @@ header {
   color: whitesmoke;
   font-size: 3rem;
   font-family: ferroRosso;
+  padding: 1rem;
   
 }
 
@@ -65,11 +66,11 @@ body {
 /* Hamburger menu from: https://alvarotrigo.com/blog/hamburger-menu-css/ */
   label .menu {
     position: absolute;
-    right: -100px;
-    top: -100px;
+    right: -6.25rem;
+    top: -6.25rem;
     z-index: 100;
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     background: var(--crimson);
     border-radius: 50% 50% 50% 50%;
     -webkit-transition: .5s ease-in-out;
@@ -82,10 +83,10 @@ body {
   /* middle hamburger line */
   label .hamburger {
     position: absolute;
-    top: 135px;
-    left: 50px;
-    width: 30px;
-    height: 2px;
+    top: 8.4375rem;
+    left: 3.125rem;
+    width: 1.875rem;
+    height: 0.125rem;
     background: whitesmoke;
     display: block;
     -webkit-transform-origin: center;
@@ -106,9 +107,9 @@ body {
     background: whitesmoke;
   }
   
-  label .hamburger:before { top: -10px; }
+  label .hamburger:before { top: -.625rem; }
   
-  label .hamburger:after { bottom: -10px; }
+  label .hamburger:after { bottom: -.625rem; }
   
   label input { display: none; }
   
@@ -160,14 +161,3 @@ body {
     text-decoration: none;
     
   }
-  
-  h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
-  }
-  
