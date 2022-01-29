@@ -146,6 +146,10 @@ label ul {
   opacity: 0;
   transition: 0.25s 0s ease-in-out;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 label a {
@@ -156,7 +160,12 @@ label a {
 }
 
 /* Grown on hover from: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/ */
-
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
 
 /* Style rules for nav items and nav  */
 .nav {
