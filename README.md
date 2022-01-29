@@ -49,3 +49,5 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 
 [Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css/)
 
+[Grow on Hover](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/)
+
