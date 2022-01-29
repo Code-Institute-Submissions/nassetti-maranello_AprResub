@@ -155,6 +155,9 @@ label a {
   text-decoration: none;
 }
 
+/* Grown on hover from: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/ */
+
+
 /* Style rules for nav items and nav  */
 .nav {
   background-color: transparent;
