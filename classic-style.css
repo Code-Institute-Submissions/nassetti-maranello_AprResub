@@ -167,6 +167,10 @@ label a {
 .section {
   height: 25rem;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* adding style rules for h1 children of divs  */
 div h1 {
