@@ -21,7 +21,10 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 * CSS
     * Scroll-Snapping 
         * Error: Scroll-Snapping could not be used with a track pad but worked with a mouse and keyboard arrows.
-        * Solution: Appeared to be an issue with Firefox. Tested on Safari and Chrome and worked as desired. As a safety measure, added a conventional site without scroll-snap and recommended utilisation of keyboard arrows.
+        * Solution: Appeared to be an issue with Firefox. Tested on Safari and Chrome and worked as desired. As a safety measure, added a conventional site without scroll-snap and recommended utilisation of keyboard arrows for guided site. 
+    * Hamburger Menu Delay
+        * Error: The nav menu that would pop up during the expansion of the hamburger menu would appear before the background occupied the full-screen. 
+        * Solution: nav and nav-items given transparent backgrounds. 
 
 ## References
 [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
