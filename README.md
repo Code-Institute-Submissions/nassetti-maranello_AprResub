@@ -26,8 +26,10 @@ I wanted this site to emulate and capture the feeling of entering an interactive
         * Error: The nav menu that would pop up during the expansion of the hamburger menu would appear before the background occupied the full-screen. 
         * Solution: Nav and nav-items given transparent backgrounds. 
     * Nav Bar Links
-        * Error: The nav items could still be clicked by accident in the background of the welcome section even though users could not see them and should not interact with them.
+        * Error 1: The nav items could still be clicked by accident in the background of the welcome section even though users could not see them and should not interact with them.
         * Solution: Changed visibility to hidden so functionality would be turned off unless clicked. 
+        * Error 2: When clicking on nav-item, hamburger menu does not automatically close.
+        * Solution: Attempting to resolve without JavaScript. 
 
 
 ## References
@@ -54,4 +56,7 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 [Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css/)
 
 [Grow on Hover](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/)
+
+[Pure CSS Photo Carousel](https://blog.hubspot.com/website/bootstrap-carousel-css)
+
 
