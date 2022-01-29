@@ -1,22 +1,21 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    color: whitesmoke;
-    font-size: 16px;
-    background-color: var(--grey);
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 16px;
+  background-color: var(--grey);
+}
 
 /* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
 :root {
-    --yellow: #ddbc17;
-    --racing-red: #f60000;
-    --crimson: #bd0000;
-    --grey: #343330;
-    --black: #181715;
-  }
+  --yellow: #ddbc17;
+  --racing-red: #f60000;
+  --crimson: #bd0000;
+  --grey: #343330;
+  --black: #181715;
+}
 
 /* adding media query for screen width below 650px altering standard font-size which should update other fint sizes via rem.*/
 @media screen and (max-width: 650px) {
@@ -24,14 +23,12 @@
     font-size: 13px;
   }
 }
-  
+
 /*adding font for logo*/
 @font-face {
-    font-family: ferroRosso;
-    src: url("assets/ferro_rosso/FerroRosso.ttf");
-  }
-
-
+  font-family: ferroRosso;
+  src: url("assets/ferro_rosso/FerroRosso.ttf");
+}
 
 header {
   display: flex;
@@ -40,7 +37,7 @@ header {
   align-items: center;
   padding-bottom: 1.5rem;
 }
- /* DELETE ME adding fixed positioning on page for logo
+/* DELETE ME adding fixed positioning on page for logo
  header .logo {
   position: absolute;
   font-size: 3rem;
@@ -56,7 +53,6 @@ header {
   font-size: 3rem;
   font-family: ferroRosso;
   padding: 1rem;
-  
 }
 
 .timeline {
@@ -65,7 +61,6 @@ header {
   justify-content: center;
   height: 600px;
   padding: 20px;
-  
 }
 body {
   /* removing overflow due to hamburger par positioning  */
@@ -76,97 +71,98 @@ body {
   align-items: center;
 }
 /* Hamburger menu from: https://alvarotrigo.com/blog/hamburger-menu-css/ */
-  label .menu {
-    position: absolute;
-    right: -6.25rem;
-    top: -6.25rem;
-    z-index: 100;
-    width: 12.5rem;
-    height: 12.5rem;
-    background: var(--crimson);
-    border-radius: 50% 50% 50% 50%;
-    transition: .5s ease-in-out;
-    box-shadow: 0 0 0 0 var(--crimson), 0 0 0 0 var(--crimson);
-    cursor: pointer;
-    
-  }
-  
-  /* middle hamburger line */
-  label .hamburger {
-    position: absolute;
-    top: 8.4375rem;
-    left: 3.125rem;
-    width: 1.875rem;
-    height: 0.125rem;
-    background: whitesmoke;
-    display: block;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    transition: .5s ease-in-out;
-  }
-  
-  /* upper and lower hamburger line */
-  label .hamburger:after, label .hamburger:before {
-    transition: .5s ease-in-out;
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: whitesmoke;
-  }
-  
-  label .hamburger:before { top: -.625rem; }
-  
-  label .hamburger:after { bottom: -.625rem; }
-  
-  label input { display: none; }
-  
-  /* hamburger: onClick */
-  label input:checked + .menu {
-    box-shadow: 0 0 0 100vw var(--crimson), 0 0 0 100vh var(--crimson);
-    border-radius: 0;
-    
-  }
-  
-  label input:checked + .menu .hamburger {
-    transform: rotate(45deg);
-    
-  }
-  
-  label input:checked + .menu .hamburger:after {
+label .menu {
+  position: absolute;
+  right: -6.25rem;
+  top: -6.25rem;
+  z-index: 100;
+  width: 12.5rem;
+  height: 12.5rem;
+  background: var(--crimson);
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 0 0 var(--crimson), 0 0 0 0 var(--crimson);
+  cursor: pointer;
+}
 
-    transform: rotate(90deg);
-    bottom: 0;
-    
-  }
-  
-  label input:checked + .menu .hamburger:before {
+/* middle hamburger line */
+label .hamburger {
+  position: absolute;
+  top: 8.4375rem;
+  left: 3.125rem;
+  width: 1.875rem;
+  height: 0.125rem;
+  background: whitesmoke;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transition: 0.5s ease-in-out;
+}
 
-    transform: rotate(90deg);
-    top: 0;
-    
-  }
-  
-  label input:checked + .menu + ul { opacity: 1; }
-  
-  label ul {
-    z-index: 200;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: 0.25s 0s ease-in-out;
-  }
-  
-  label a {
-    margin-bottom: 1em;
-    display: block;
-    color: whitesmoke;
-    text-decoration: none;
-    
-  }
+/* upper and lower hamburger line */
+label .hamburger:after,
+label .hamburger:before {
+  transition: 0.5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+}
+
+label .hamburger:before {
+  top: -0.625rem;
+}
+
+label .hamburger:after {
+  bottom: -0.625rem;
+}
+
+label input {
+  display: none;
+}
+
+/* hamburger: onClick */
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw var(--crimson), 0 0 0 100vh var(--crimson);
+  border-radius: 0;
+}
+
+label input:checked + .menu .hamburger {
+  transform: rotate(45deg);
+}
+
+label input:checked + .menu .hamburger:after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+label input:checked + .menu .hamburger:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+label input:checked + .menu + ul {
+  opacity: 1;
+}
+
+label ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s 0s ease-in-out;
+}
+
+label a {
+  margin-bottom: 1em;
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+}
 
 /* Style rules for nav items and nav  */
 .nav {
