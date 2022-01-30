@@ -59,4 +59,6 @@ I wanted this site to emulate and capture the feeling of entering an interactive
 
 [Pure CSS Photo Carousel](https://blog.hubspot.com/website/bootstrap-carousel-css)
 
+[Timeline Feature on Home Page](https://www.w3schools.com/howto/howto_css_timeline.asp)
+
 
