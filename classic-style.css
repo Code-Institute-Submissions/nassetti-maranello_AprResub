@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
   color: whitesmoke;
-  font-size: 16px;
   background-color: var(--grey);
 }
 
@@ -45,19 +44,15 @@ header {
   padding: 1rem;
 }
 
-.timeline {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 600px;
-  padding: 20px;
-}
+
 body {
   /* removing overflow due to hamburger bar positioning  */
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  height: fit-content;
 }
 /* Hamburger menu from: https://alvarotrigo.com/blog/hamburger-menu-css/ */
 label .menu {
@@ -152,6 +147,7 @@ label ul {
   align-items: center;
   visibility: hidden;
   font-size: 1.3rem;
+  font-weight: bolder;
 }
 
 label a {
@@ -159,6 +155,14 @@ label a {
   display: block;
   color: whitesmoke;
   text-decoration: none;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  padding: 20px;
 }
 
 /* Grown on hover from: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/ */
@@ -179,7 +183,8 @@ label a {
 
 /* style rules for sections */
 .section {
-  height: 25rem;
+  height: fit-content;
+  padding: 4 rem;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -192,23 +197,3 @@ div h1 {
   font-weight: bold;
   padding: 1rem 0;
 }
-
-/* Adding CSS for photo carousel
-.carousel {
-  display: flex;
-  overflow-x: visible;
-  scroll-snap-type: x mandatory;
-}
-
-.slide {
-  display:flex;
-  flex-shrink: 0;
-  width: 100%;
-  height: 19rem;
-  scroll-snap-align: start;
-  scroll-behavior: smooth;
-  background-color: var(--yellow);
-  justify-content: center;
-  align-items: center;
-  font-size: 100px;
-} */
