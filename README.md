@@ -13,6 +13,9 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 * Responsive Hamburger Bar for Site Navigation
     * Hamburger bar with moving animation with ease-in transition that is hidden when not in use. Found in top-right corner. 
+<img src="assets/screenshots/hamburger.png">
+<img src="assets/screenshot/hamburger-open.png">
+
 
 * Contact Form
     * Contact form with various text inputs and country selection for all global countries. 
