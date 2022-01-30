@@ -261,3 +261,9 @@ input[type=submit]:hover {
   height: 30px;
   margin: 3rem;
 }
+
+/* adding style for quick fire facts  */
+#facts {
+  font-size: 2rem;
+  font-weight: bolder;
+}

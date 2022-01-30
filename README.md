@@ -1,6 +1,10 @@
 # Museo di Maranello
 
-The Museo di Maranello, or Museum of Maranello in English is an entirely HTML and CSS project designed to showcase the history of some of Ferrari's most memorable and iconic vehicles. Organised by decade, the website has a simple to use navigation though limited content. 
+The Museo di Maranello, or Museum of Maranello in English is an entirely HTML and CSS project designed to showcase the history of Ferrari to those with limited knowledge of the brand. Organised by time period, the website has a simple to use navigation though limited content. 
+
+# Purpose
+
+The purpose of this website was to briefly introduce people to Ferrari. The goal was not to educate the well-versed or those already passionate about the world of Ferrari but to showcase some key facts about Ferrari. 
 
 ## Design, UI, and UX
 
@@ -13,12 +17,15 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 * Responsive Hamburger Bar for Site Navigation
     * Hamburger bar with moving animation with ease-in transition that is hidden when not in use. Found in top-right corner. 
+
 <img src="assets/screenshots/hamburger.png">
-<img src="assets/screenshot/hamburger-open.png">
+
+<img src="assets/screenshot/hamburger-open.png" width=100%>
 
 
 * Contact Form
     * Contact form with various text inputs and country selection for all global countries. 
+
 <img src="assets/screenshots/contact-us.png" width=100%>
 
 
@@ -41,6 +48,7 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 
 ## References
+
 [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 [Colour Palette Generator](https://coolors.co)
@@ -69,4 +77,4 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 [Timeline Feature on Home Page](https://www.w3schools.com/howto/howto_css_timeline.asp)
 
-
+[Facts about Ferrari](https://interestingengineering.com/13-facts-about-ferraris-you-didnt-know)
