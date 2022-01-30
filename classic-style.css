@@ -197,3 +197,53 @@ div h1 {
   font-weight: bold;
   padding: 1rem 0;
 }
+
+/* adding styles for contact form  */
+.contact-form {
+  height: 80h;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--black);
+  border-radius: 0.25rem;
+  /* background-color: var(--crimson); */
+  padding: 1rem;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 1rem; 
+  border: 0.2rem solid #ccc; 
+  border-radius: 0.25rem; 
+  box-sizing: border-box; 
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  margin-bottom: 1rem; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: var(--yellow);
+  color: whitesmoke;
+  height: 3rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  margin-bottom: 1rem; 
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: green;
+}
+
