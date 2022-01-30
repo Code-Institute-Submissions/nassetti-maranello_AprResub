@@ -133,7 +133,9 @@ label input:checked + .menu .hamburger:before {
 
 label input:checked + .menu + ul {
   opacity: 1;
+  visibility: visible;
 }
+
 
 label ul {
   z-index: 200;
@@ -148,6 +150,7 @@ label ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
   font-size: 1.3rem;
 }
 
