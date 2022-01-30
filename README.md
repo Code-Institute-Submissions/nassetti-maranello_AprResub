@@ -29,7 +29,7 @@ I wanted this site to emulate and capture the feeling of entering an interactive
         * Error 1: The nav items could still be clicked by accident in the background of the welcome section even though users could not see them and should not interact with them.
         * Solution: Changed visibility to hidden so functionality would be turned off unless clicked. 
         * Error 2: When clicking on nav-item, hamburger menu does not automatically close.
-        * Solution: Attempting to resolve without JavaScript. 
+        * Solution: Resolved by making <ul></ul> visibility:hidden by default and visible when input:checked.
 
 
 ## References
