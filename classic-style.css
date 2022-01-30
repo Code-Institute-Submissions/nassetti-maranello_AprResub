@@ -5,6 +5,7 @@
   font-family: sans-serif;
   color: whitesmoke;
   background-color: var(--grey);
+  height: fit-content;
 }
 
 /* Declaring global colour variables from "ferrari-palette"to avoid retyping hex codes  */
@@ -52,6 +53,16 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: fit-content;
+}
+
+
+body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
   height: fit-content;
 }
 /* Hamburger menu from: https://alvarotrigo.com/blog/hamburger-menu-css/ */
@@ -247,3 +258,10 @@ input[type=submit]:hover {
   background-color: green;
 }
 
+
+/* styling images  */
+div .image {
+  width: 50%;
+  height: 30px;
+
+}

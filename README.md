@@ -1,17 +1,22 @@
 # Museo di Maranello
 
-The Museo di Maranello, or Museum of Maranello in English is an entirely HTML and CSS project designed to showcase the history of some of Ferrari's most memorable and iconic vehicles. Designed to be experienced as either a 'walk-through' style tour or a reference page to learn more
+The Museo di Maranello, or Museum of Maranello in English is an entirely HTML and CSS project designed to showcase the history of some of Ferrari's most memorable and iconic vehicles. Organised by decade, the website has a simple to use navigation though limited content. 
 
 ## Design, UI, and UX
 
 In taking inspiration from Ferrari's principal colour schemes - the website was centred around the following colour pallete:
 <img src="assets/ferrari-palette.png" width="100%">
 
-I wanted this site to emulate and capture the feeling of entering an interactive museum and having the option to either explore at one's own pace as they browse through the different exhibits or experience a 'curated' path/journey that a tour guide would offer. 
+I wanted this site to emulate and capture the feeling of entering a small fan-club with memorabilia across the walls. To capture this, I tried to use first person communication throughout the site as well as 
 
 ## Components
-* Loading feature
-..* Whilst buffering/loading the page I wanted the user to immediately feel engaged by the sporting history of Ferrari. In order to achieve this I added an F1 styled starting lights animation. 
+
+* Responsive Hamburger Bar for Site Navigation
+    * Hamburger bar with moving animation with ease-in transition that is hidden when not in use. Found in top-right corner. 
+
+* Contact Form
+    * Contact form with various text inputs and country selection for all global countries. 
+<img src="assets/screenshots/contact-us.png" width=100%>
 
 
 
