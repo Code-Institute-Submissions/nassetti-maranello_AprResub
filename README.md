@@ -20,7 +20,7 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 <img src="assets/screenshots/hamburger.png">
 
-<img src="assets/screenshot/hamburger-open.png" width=100%>
+<img src="assets/screenshots/hamburger-open.png" width=100%>
 
 
 * Contact Form
@@ -32,7 +32,6 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 ## Testing and Validation
 
-* HTML
 * CSS Bugs
     * Scroll-Snapping 
         * Error: Scroll-Snapping could not be used with a track pad but worked with a mouse and keyboard arrows.
