@@ -259,11 +259,12 @@ input[type=submit]:hover {
 .image {
   width: 100%;
   height: auto;
-  margin: 10rem;
+  margin: 3rem;
 }
 
 /* adding style for quick fire facts  */
 #facts {
   font-size: 2rem;
   font-weight: bolder;
+  padding: 3rem;
 }
