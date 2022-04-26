@@ -18,7 +18,7 @@
 }
 
 /* adding media query for screen width below 650px altering standard font-size which should update other fint sizes via rem.*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   * {
     font-size: 10px;
   }
