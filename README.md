@@ -15,13 +15,8 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
 
 ## Components
 
-* Responsive Hamburger Bar for Site Navigation
-    * Hamburger bar with moving animation with ease-in transition that is hidden when not in use. Found in top-right corner. 
-
-<img src="assets/screenshots/hamburger.png">
-
-<img src="assets/screenshots/hamburger-open.png" width=100%>
-
+* Separate Pages
+    * Website designed with five separate pages to provide information to users. Pages can be easily accessed using NavBar below logo. 
 
 * Contact Form
     * Contact form with various text inputs and country selection for all global countries. 
@@ -44,6 +39,16 @@ I wanted this site to emulate and capture the feeling of entering a small fan-cl
         * Solution: Changed visibility to hidden so functionality would be turned off unless clicked. 
         * Error 2: When clicking on nav-item, hamburger menu does not automatically close.
         * Solution: Resolved by making <ul></ul> visibility:hidden by default and visible when input:checked.
+    * W3C CSS Validator
+        * Tested in validator with no issues. 
+* W3C HTML Validator: 
+    * Error 1: Only text and input tags can be descendants of a label tag. 
+    * Solution: Removed the hamburger menu nav bar and implemented a standard nav instead. 
+    
+
+## Deployment
+
+    * This site was deployed to the web using GitHub pages. 
 
 
 ## References

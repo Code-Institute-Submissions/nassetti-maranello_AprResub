@@ -32,11 +32,29 @@
 
 header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
+  width: 100%;
 }
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .logo {
   color: whitesmoke;
@@ -44,7 +62,6 @@ header {
   font-family: ferroRosso;
   padding: 1rem;
 }
-
 
 body {
   /* removing overflow due to hamburger bar positioning  */
@@ -56,7 +73,6 @@ body {
   height: fit-content;
 }
 
-
 body div {
   display: flex;
   flex-direction: column;
@@ -65,103 +81,8 @@ body div {
   width: 90%;
   height: fit-content;
 }
-/* Hamburger menu from: https://alvarotrigo.com/blog/hamburger-menu-css/ */
-label .menu {
-  position: absolute;
-  right: -6.25rem;
-  top: -6.25rem;
-  z-index: 100;
-  width: 12.5rem;
-  height: 12.5rem;
-  background: var(--crimson);
-  border-radius: 50% 50% 50% 50%;
-  transition: 0.5s ease-in-out;
-  box-shadow: 0 0 0 0 var(--crimson), 0 0 0 0 var(--crimson);
-  cursor: pointer;
-}
 
-/* middle hamburger line */
-label .hamburger {
-  position: absolute;
-  top: 8.4375rem;
-  left: 3.125rem;
-  width: 1.875rem;
-  height: 0.125rem;
-  background: whitesmoke;
-  display: block;
-  transform-origin: center;
-  transition: 0.5s ease-in-out;
-}
-
-/* upper and lower hamburger line */
-label .hamburger:after,
-label .hamburger:before {
-  transition: 0.5s ease-in-out;
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: whitesmoke;
-}
-
-label .hamburger:before {
-  top: -0.625rem;
-}
-
-label .hamburger:after {
-  bottom: -0.625rem;
-}
-
-label input {
-  display: none;
-}
-
-/* hamburger: onClick */
-label input:checked + .menu {
-  box-shadow: 0 0 0 100vw var(--crimson), 0 0 0 100vh var(--crimson);
-  border-radius: 0;
-}
-
-label input:checked + .menu .hamburger {
-  transform: rotate(45deg);
-}
-
-label input:checked + .menu .hamburger:after {
-  transform: rotate(90deg);
-  bottom: 0;
-}
-
-label input:checked + .menu .hamburger:before {
-  transform: rotate(90deg);
-  top: 0;
-}
-
-label input:checked + .menu + ul {
-  opacity: 1;
-  visibility: visible;
-}
-
-
-label ul {
-  z-index: 200;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: 0.25s 0s ease-in-out;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  visibility: hidden;
-  font-size: 1.3rem;
-  font-weight: bolder;
-}
-
-label a {
+a {
   margin-bottom: 1em;
   display: block;
   color: whitesmoke;
@@ -186,7 +107,7 @@ label a {
 /* style rules for sections */
 .section {
   height: fit-content;
-  padding: 4 rem;
+  padding: 4rem;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -202,7 +123,7 @@ div h1 {
 
 /* adding styles for contact form  */
 .contact-form {
-  height: 80h;
+  height: 80vh;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -214,20 +135,22 @@ div h1 {
   padding: 1rem;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 1rem; 
-  border: 0.2rem solid #ccc; 
-  border-radius: 0.25rem; 
-  box-sizing: border-box; 
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
   margin-top: 0.4rem;
   margin-left: 0.4rem;
   margin-right: 0.4rem;
-  margin-bottom: 1rem; 
-  resize: vertical 
+  margin-bottom: 1rem;
+  resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: var(--yellow);
   color: whitesmoke;
   height: 3rem;
@@ -236,16 +159,15 @@ input[type=submit] {
   margin-top: 0.4rem;
   margin-left: 0.4rem;
   margin-right: 0.4rem;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
   border: none;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
   width: 100%;
-
 }
 
 /* /* adding hover effect for submit  */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: green;
 }
 
